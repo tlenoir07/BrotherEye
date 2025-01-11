@@ -1,0 +1,517 @@
+2025-01-05 16:45:20,781 - INFO - Brother Eye initialized.
+2025-01-05 16:45:36,758 - INFO - Received command: hello
+2025-01-05 16:45:36,759 - INFO - Responded to 'hello' command.
+2025-01-05 16:45:46,669 - INFO - Received command: run task
+2025-01-05 16:45:46,669 - INFO - Task execution started.
+2025-01-05 16:45:46,669 - INFO - Task execution completed.
+2025-01-05 16:45:46,670 - INFO - Successfully executed 'run task'.
+2025-01-05 16:45:57,261 - INFO - Received command: joker
+2025-01-05 16:45:57,261 - WARNING - Unknown command: joker
+2025-01-05 16:46:11,008 - INFO - Brother Eye shutting down.
+2025-01-05 16:50:58,933 - INFO - Brother Eye initialized.
+2025-01-05 16:52:39,321 - INFO - Received command: open C:\Users\tyler\Documents\test.txt
+2025-01-05 16:52:39,321 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-05 16:52:39,524 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-05 16:56:21,604 - INFO - Received command: run C:\ProgramData\Battle.net\Agent\Agent.8916
+2025-01-05 16:56:21,604 - INFO - Attempting to run program: C:\ProgramData\Battle.net\Agent\Agent.8916
+2025-01-05 16:56:21,633 - INFO - Program launched successfully: C:\ProgramData\Battle.net\Agent\Agent.8916
+2025-01-05 16:56:30,134 - INFO - Brother Eye shutting down.
+2025-01-05 17:04:20,225 - INFO - Brother Eye initialized.
+2025-01-05 17:04:30,371 - INFO - Received command: browse roblox.com
+2025-01-05 17:04:30,372 - INFO - Attempting to open URL: roblox.com
+2025-01-05 17:04:30,513 - INFO - URL opened successfully: roblox.com
+2025-01-05 17:04:59,443 - INFO - Received command: browse dc.com
+2025-01-05 17:04:59,443 - INFO - Attempting to open URL: dc.com
+2025-01-05 17:04:59,478 - INFO - URL opened successfully: dc.com
+2025-01-05 17:05:36,450 - INFO - Brother Eye shutting down.
+2025-01-05 17:06:20,256 - INFO - Brother Eye initialized.
+2025-01-05 17:06:22,733 - INFO - Received command: hello
+2025-01-05 17:06:22,734 - INFO - Responded to 'hello' command.
+2025-01-05 17:06:54,775 - INFO - Received command: open C:\invalid\path\file.txt
+2025-01-05 17:06:54,775 - INFO - Attempting to open file: C:\invalid\path\file.txt
+2025-01-05 17:06:54,775 - WARNING - File not found: C:\invalid\path\file.txt
+2025-01-05 17:07:32,807 - INFO - Received command: open C:\Users\Tyler\Documents\test.txt
+2025-01-05 17:07:32,808 - INFO - Attempting to open file: C:\Users\Tyler\Documents\test.txt
+2025-01-05 17:07:33,019 - INFO - File opened successfully: C:\Users\Tyler\Documents\test.txt
+2025-01-05 17:08:24,498 - INFO - Received command: run "C:\Program Files\LGHUB\system_tray\lghub_system_tray.exe"
+2025-01-05 17:08:24,498 - INFO - Attempting to run program: "C:\Program Files\LGHUB\system_tray\lghub_system_tray.exe"
+2025-01-05 17:08:24,529 - INFO - Program launched successfully: "C:\Program Files\LGHUB\system_tray\lghub_system_tray.exe"
+2025-01-05 17:09:01,923 - INFO - Received command: shell dir
+2025-01-05 17:09:01,924 - INFO - Running shell command: dir
+2025-01-05 17:09:01,981 - INFO - Command output: Volume in drive C has no label.
+ Volume Serial Number is 96B2-8CF0
+
+ Directory of C:\Users\tyler\BrotherEye
+
+01/05/2025  05:08 PM    <DIR>          .
+01/05/2025  05:08 PM    <DIR>          ..
+01/05/2025  05:08 PM                88 debug.log
+01/05/2025  04:45 PM    <DIR>          logs
+01/05/2025  05:04 PM             2,296 main.py
+01/05/2025  04:41 PM    <DIR>          modules
+               2 File(s)          2,384 bytes
+               4 Dir(s)  86,850,568,192 bytes free
+2025-01-05 17:09:16,648 - INFO - Received command: shell invalidcommand
+2025-01-05 17:09:16,649 - INFO - Running shell command: invalidcommand
+2025-01-05 17:09:16,706 - ERROR - Error while executing shell command: invalidcommand - Command 'invalidcommand' returned non-zero exit status 1.
+2025-01-05 17:09:32,925 - INFO - Brother Eye shutting down.
+2025-01-05 17:21:51,985 - INFO - Brother Eye initialized.
+2025-01-05 17:21:58,145 - INFO - Received command: hello
+2025-01-05 17:21:58,145 - INFO - Responded to 'hello' command.
+2025-01-05 17:22:01,603 - INFO - Received command: what is ai
+2025-01-05 17:22:01,603 - WARNING - Unknown command: what is ai
+2025-01-05 17:22:17,782 - INFO - Received command: chat what is ai
+2025-01-05 17:22:17,783 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 17:23:44,820 - INFO - Brother Eye shutting down.
+2025-01-05 17:29:01,124 - INFO - Brother Eye initialized.
+2025-01-05 17:29:06,978 - INFO - Received command: chat what is ai
+2025-01-05 17:29:06,980 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 17:32:49,687 - INFO - Brother Eye shutting down.
+2025-01-05 17:42:06,457 - INFO - Brother Eye initialized.
+2025-01-05 17:42:12,385 - INFO - Received command: chat what is ai
+2025-01-05 17:42:12,387 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 17:42:19,314 - INFO - Brother Eye shutting down.
+2025-01-05 17:43:35,329 - INFO - Brother Eye initialized.
+2025-01-05 17:43:39,841 - INFO - Received command: chat what is ai
+2025-01-05 17:43:39,844 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 17:44:18,359 - INFO - Brother Eye shutting down.
+2025-01-05 17:55:03,517 - INFO - Brother Eye initialized.
+2025-01-05 17:55:08,382 - INFO - Received command: chat what is ai
+2025-01-05 17:55:09,293 - INFO - error_code=model_not_found error_message='The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-01-05 17:55:09,294 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 17:57:33,235 - INFO - Brother Eye shutting down.
+2025-01-05 17:57:50,875 - INFO - Brother Eye initialized.
+2025-01-05 17:57:59,352 - INFO - Received command: chat what is ai
+2025-01-05 17:57:59,354 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 19:17:05,525 - INFO - Brother Eye shutting down.
+2025-01-05 19:17:12,372 - INFO - Brother Eye initialized.
+2025-01-05 19:17:20,588 - INFO - Received command: chat what is ai
+2025-01-05 19:17:21,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:17:21,388 - INFO - Retrying request to /chat/completions in 0.440837 seconds
+2025-01-05 19:17:21,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:17:21,891 - INFO - Retrying request to /chat/completions in 0.932396 seconds
+2025-01-05 19:17:22,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:17:22,887 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 19:21:51,612 - INFO - Brother Eye shutting down.
+2025-01-05 19:24:39,836 - INFO - Brother Eye initialized.
+2025-01-05 19:24:44,282 - INFO - Received command: chat what is ai
+2025-01-05 19:24:44,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:24:44,677 - INFO - Retrying request to /chat/completions in 0.455145 seconds
+2025-01-05 19:24:45,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:24:45,200 - INFO - Retrying request to /chat/completions in 0.777599 seconds
+2025-01-05 19:24:46,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:24:46,049 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 19:24:54,492 - INFO - Brother Eye shutting down.
+2025-01-05 19:27:25,297 - INFO - Brother Eye initialized.
+2025-01-05 19:27:28,959 - INFO - Received command: hello
+2025-01-05 19:27:28,959 - INFO - Responded to 'hello' command.
+2025-01-05 19:27:34,180 - INFO - Received command: chat what is ai
+2025-01-05 19:27:34,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:27:34,560 - INFO - Retrying request to /chat/completions in 0.384464 seconds
+2025-01-05 19:27:35,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:27:35,021 - INFO - Retrying request to /chat/completions in 0.802386 seconds
+2025-01-05 19:27:35,906 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-01-05 19:27:35,908 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-05 19:27:49,147 - INFO - Brother Eye shutting down.
+2025-01-06 11:58:13,282 - INFO - Brother Eye initialized.
+2025-01-06 11:58:23,734 - INFO - Received command: hello
+2025-01-06 11:58:23,734 - INFO - Responded to 'hello' command.
+2025-01-06 11:58:29,519 - INFO - Received command: chat what is ai
+2025-01-06 11:58:30,608 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 11:58:30,619 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-06 12:00:16,278 - INFO - Brother Eye shutting down.
+2025-01-06 12:00:49,538 - INFO - Brother Eye initialized.
+2025-01-06 12:00:56,844 - INFO - Received command: chat what is ai
+2025-01-06 12:00:56,845 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-06 12:02:36,275 - INFO - Brother Eye shutting down.
+2025-01-06 12:02:40,775 - INFO - Brother Eye initialized.
+2025-01-06 12:03:13,083 - INFO - Received command: chat what is ai
+2025-01-06 12:03:13,085 - INFO - ChatGPT response: Error: Unable to process the request.
+2025-01-06 12:03:16,269 - INFO - Brother Eye shutting down.
+2025-01-06 12:10:13,005 - INFO - Brother Eye initialized.
+2025-01-06 12:10:16,724 - INFO - Received command: hello
+2025-01-06 12:10:16,726 - INFO - Responded to 'hello' command.
+2025-01-06 12:10:20,609 - INFO - Received command: chat
+2025-01-06 12:10:20,610 - WARNING - Missing input for 'chat' command.
+2025-01-06 12:10:25,731 - INFO - Received command: chat hello
+2025-01-06 12:10:26,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 14:46:23,381 - INFO - Brother Eye initialized.
+2025-01-06 14:46:31,629 - INFO - Received command: chat what is ai
+2025-01-06 14:46:32,783 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 14:46:32,790 - INFO - ChatGPT response: AI stands for artificial intelligence. It refers to the development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI involves the creation of algorithms and models that enable machines to learn from data, adapt to new information, and make decisions or predictions based on that information.
+2025-01-06 14:49:57,459 - INFO - Brother Eye shutting down.
+2025-01-09 11:09:08,971 - INFO - Brother Eye initialized.
+2025-01-09 11:10:13,995 - INFO - Received command: search C:\Users\Tyler\Documents, test
+2025-01-09 11:10:13,995 - INFO - Searching for files in 'C:\Users\Tyler\Documents' with term 'test'
+2025-01-09 11:10:13,999 - INFO - Found 1 matching files.
+2025-01-09 11:10:13,999 - INFO - Search completed with 1 results.
+2025-01-09 11:10:35,208 - INFO - Received command: stop
+2025-01-09 11:10:35,208 - WARNING - Unknown command: stop
+2025-01-09 11:11:19,393 - INFO - Brother Eye shutting down.
+2025-01-09 11:20:35,720 - INFO - Brother Eye initialized.
+2025-01-09 11:21:50,319 - INFO - Received command: schedule chat, what is ai
+2025-01-09 11:21:50,319 - WARNING - Invalid input format for 'schedule' command.
+2025-01-09 11:22:07,874 - INFO - Received command: schedule chat, 15, what is ai?
+2025-01-09 11:22:07,874 - INFO - Scheduling task 'scheduled_task' to run in 15 seconds.
+2025-01-09 11:22:07,879 - INFO - Scheduled task 'chat' to run in 15 seconds.
+2025-01-09 11:22:22,884 - INFO - Received command: chat what is ai?
+2025-01-09 11:22:24,632 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:22:24,640 - INFO - ChatGPT response: AI, or artificial intelligence, refers to the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, problem-solving, perception, and decision-making. AI technologies are designed to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
+2025-01-09 11:23:40,836 - INFO - Received command: schedule open, 10, C:\Users\tyler\Documents\test.txt
+2025-01-09 11:23:40,836 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-09 11:23:40,837 - INFO - Scheduled task 'open' to run in 10 seconds.
+2025-01-09 11:23:50,840 - INFO - Received command: open C:\Users\tyler\Documents\test.txt
+2025-01-09 11:23:50,840 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-09 11:23:51,047 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-09 11:23:59,923 - INFO - Brother Eye shutting down.
+2025-01-09 11:36:28,726 - INFO - Brother Eye initialized.
+2025-01-09 11:36:35,040 - INFO - Received command: system
+2025-01-09 11:36:36,055 - INFO - System usage: {'cpu': 9.0, 'memory': 37.4, 'disk': 91.6}
+2025-01-09 11:36:36,058 - INFO - Displayed system usage.
+2025-01-09 11:37:03,108 - INFO - Received command: monitor cpu=9,memory=37,disk=90
+2025-01-09 11:37:04,119 - INFO - System usage: {'cpu': 2.3, 'memory': 37.3, 'disk': 91.6}
+2025-01-09 11:37:04,120 - WARNING - Memory usage is high: 37.3%
+2025-01-09 11:37:04,120 - WARNING - Disk usage is high: 91.6%
+2025-01-09 11:37:10,744 - INFO - Brother Eye shutting down.
+2025-01-09 11:45:52,719 - INFO - Brother Eye initialized.
+2025-01-09 11:46:20,615 - INFO - Received command: chat what is the capital of France?
+2025-01-09 11:46:21,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:46:21,495 - INFO - ChatGPT response: The capital of France is Paris.
+2025-01-09 11:46:50,624 - INFO - Received command: chat tell me more about it.
+2025-01-09 11:46:52,356 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 11:46:52,370 - INFO - ChatGPT response: Paris is one of the most famous and iconic cities in the world. It is known for its rich history, stunning architecture, world-class museums, delicious cuisine, and vibrant cultural scene. Some of the most popular attractions in Paris include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Champs-Élysées, and Montmartre. The city is also known for its fashion houses, luxury boutiques, and charming cafes. Paris is often referred to as the "City of Light" and is a popular destination for tourists from around the world.
+2025-01-09 11:47:02,990 - INFO - Received command: reset_chat
+2025-01-09 11:47:02,992 - INFO - ChatGPT conversation history reset.
+2025-01-09 11:47:31,143 - INFO - Received command: summarize C:\Users\tyler\Documents\test.txt
+2025-01-09 11:47:31,144 - WARNING - Unknown command: summarize C:\Users\tyler\Documents\test.txt
+2025-01-09 11:47:52,124 - INFO - Brother Eye shutting down.
+2025-01-09 12:06:58,879 - INFO - Brother Eye initialized.
+2025-01-09 12:07:19,578 - INFO - Received command: weather london
+2025-01-09 12:07:19,749 - ERROR - HTTP error while fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=london&appid=3f10a90318c80b17731f3b0c6ea29abb&units=metric
+2025-01-09 12:07:19,750 - INFO - Displayed weather report for london.
+2025-01-09 12:07:31,267 - INFO - Received command: weather London
+2025-01-09 12:07:31,362 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: 2.59°C
+- Humidity: 78%
+- Wind Speed: 2.24 m/s
+2025-01-09 12:07:31,364 - INFO - Displayed weather report for London.
+2025-01-09 12:08:15,500 - INFO - Brother Eye shutting down.
+2025-01-09 16:15:08,414 - INFO - Brother Eye initialized.
+2025-01-09 16:15:49,862 - INFO - Received command: list_events
+2025-01-09 16:15:49,864 - INFO - Displayed calendar events.
+2025-01-09 16:16:51,273 - INFO - Received command: send_email tylerlenoir07@gmail.com, superboy101!, tyler@visionforce21.com, Hello, This is a Test
+2025-01-09 16:16:52,261 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6f546dd6a9asm4066147b3.97 - gsmtp')
+2025-01-09 16:16:52,262 - INFO - Sent email to tyler@visionforce21.com.
+2025-01-09 16:17:44,425 - INFO - Received command: send_email tyler@visionforce21.com, Soccerboy19!, tylerlenoir07@gmail.com, Hello, This is a Test
+2025-01-09 16:17:45,029 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6f546c25354sm4125067b3.21 - gsmtp')
+2025-01-09 16:17:45,029 - INFO - Sent email to tylerlenoir07@gmail.com.
+2025-01-09 16:18:04,036 - INFO - Received command: news technology
+2025-01-09 16:18:04,514 - INFO - Displayed news for topic: technology.
+2025-01-09 16:18:20,079 - INFO - Received command: weather New York
+2025-01-09 16:18:20,235 - INFO - Fetched weather data for New York: Weather in New york:
+- Condition: Clear sky
+- Temperature: 0.57°C
+- Humidity: 49%
+- Wind Speed: 13.38 m/s
+2025-01-09 16:18:20,237 - INFO - Displayed weather report for New York.
+2025-01-09 16:18:52,178 - INFO - Brother Eye shutting down.
+2025-01-09 16:23:01,366 - INFO - Brother Eye initialized.
+2025-01-09 16:23:06,485 - INFO - Received command: list_events
+2025-01-09 16:23:06,486 - INFO - Displayed calendar events.
+2025-01-09 16:25:39,304 - INFO - Brother Eye shutting down.
+2025-01-09 16:25:47,264 - INFO - Brother Eye initialized.
+2025-01-09 16:25:52,061 - INFO - Received command: list_events
+2025-01-09 16:29:51,933 - INFO - Brother Eye initialized.
+2025-01-09 16:30:13,465 - INFO - Received command: list_events
+2025-01-09 16:31:07,958 - INFO - Brother Eye initialized.
+2025-01-09 16:31:15,475 - INFO - Brother Eye shutting down.
+2025-01-09 16:32:51,194 - INFO - Brother Eye initialized.
+2025-01-09 16:32:57,867 - INFO - Received command: list_events
+2025-01-09 16:34:39,639 - INFO - Brother Eye initialized.
+2025-01-09 16:34:44,345 - INFO - Received command: list_events
+2025-01-09 16:37:55,029 - INFO - "GET /?state=rkt2q26iJ9WzFSynxhr8g7tZfwmKMi&code=4/0AanRRrvAQqXv9o_h1Ub4i9l8y-wWOm5V4rMjPvinP4Enm3tIOBnJXiIcwl5QDWWonU8c8Q&scope=https://www.googleapis.com/auth/calendar HTTP/1.1" 200 65
+2025-01-09 16:37:55,238 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-09 16:39:39,405 - INFO - Brother Eye initialized.
+2025-01-09 16:39:43,685 - INFO - Received command: list_events
+2025-01-09 16:39:43,718 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-09 16:39:45,269 - INFO - Displayed calendar events.
+2025-01-09 16:39:50,185 - INFO - Brother Eye shutting down.
+2025-01-09 16:42:57,037 - INFO - Brother Eye initialized.
+2025-01-09 16:57:15,007 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Scattered clouds
+- Temperature: 0.41°C
+- Humidity: 90%
+- Wind Speed: 0.89 m/s
+2025-01-09 16:57:26,182 - INFO - System usage: {'cpu': 2.8, 'memory': 43.6, 'disk': 91.6}
+2025-01-09 16:57:38,745 - INFO - Scheduling task 'scheduled_task' to run in 5 seconds.
+2025-01-09 16:57:48,271 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-09 16:58:39,609 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6f546c25d4csm4168207b3.20 - gsmtp')
+2025-01-09 17:26:05,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 17:26:22,433 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 17:27:02,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:02:07,199 - INFO - Could not import comtypes.gen, trying to create it.
+2025-01-09 18:02:07,201 - INFO - Created comtypes.gen directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:02:07,201 - INFO - Writing __init__.py file: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen\__init__.py'
+2025-01-09 18:02:07,219 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:02:07,256 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-01-09 18:02:07,271 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-01-09 18:02:07,443 - INFO - # Generating comtypes.gen.SpeechLib
+2025-01-09 18:02:07,459 - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-01-09 18:02:07,460 - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-01-09 18:02:07,474 - INFO - # Generating comtypes.gen.stdole
+2025-01-09 18:02:54,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:04:19,851 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:07:42,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:11:44,264 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-09 18:11:44,265 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:12:15,075 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-09 18:12:15,076 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:12:32,222 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:12:52,482 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:14:15,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:20:07,039 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-09 18:20:07,040 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:20:14,265 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Few clouds
+- Temperature: -0.29°C
+- Humidity: 91%
+- Wind Speed: 2.06 m/s
+2025-01-09 18:21:00,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-09 18:22:33,679 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-09 18:22:33,680 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-09 18:22:46,251 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:37:41,280 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 19:37:41,282 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 19:38:03,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:39:52,957 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.82°C
+- Humidity: 93%
+- Wind Speed: 1.03 m/s
+2025-01-10 19:42:30,799 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:48:04,507 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 19:48:04,507 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 19:48:17,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:52:24,668 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 19:52:24,668 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 19:52:34,737 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:53:28,961 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 19:56:43,895 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 19:56:43,896 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 19:57:11,296 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:01:34,886 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:01:34,887 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:01:44,211 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.93°C
+- Humidity: 92%
+- Wind Speed: 1.54 m/s
+2025-01-10 20:02:07,349 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-10 20:04:44,153 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6f546e35bcfsm8418557b3.118 - gsmtp')
+2025-01-10 20:08:19,968 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e55a593f249sm560539276.10 - gsmtp')
+2025-01-10 20:11:55,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:12:20,398 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:12:58,921 - INFO - System usage: {'cpu': 4.0, 'memory': 40.2, 'disk': 91.7}
+2025-01-10 20:13:19,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:13:34,630 - ERROR - Error fetching weather data: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=schedule%20%20london,%2010&appid=3f10a90318c80b17731f3b0c6ea29abb&units=metric
+2025-01-10 20:14:01,768 - ERROR - Error fetching weather data: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=schedule%20%20london,%2010&appid=3f10a90318c80b17731f3b0c6ea29abb&units=metric
+2025-01-10 20:14:29,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:15:12,421 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.82°C
+- Humidity: 92%
+- Wind Speed: 0 m/s
+2025-01-10 20:19:40,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:19:56,442 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:20:31,558 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-10 20:25:19,081 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:25:19,082 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:26:12,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:26:37,460 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:29:39,013 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:29:39,014 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:29:49,314 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.75°C
+- Humidity: 92%
+- Wind Speed: 0.45 m/s
+2025-01-10 20:30:20,070 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-10 20:30:30,191 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.75°C
+- Humidity: 92%
+- Wind Speed: 0.45 m/s
+2025-01-10 20:31:01,321 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-10 20:31:01,495 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-10 20:39:30,683 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:39:30,683 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:39:39,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:43:28,181 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:43:28,182 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:43:41,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:46:54,454 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:46:54,455 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:47:02,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:47:49,234 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.98°C
+- Humidity: 93%
+- Wind Speed: 0 m/s
+2025-01-10 20:50:33,567 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 20:50:33,568 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 20:50:42,179 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:51:20,808 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:51:36,362 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:51:58,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:52:13,002 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 20:52:30,194 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.66°C
+- Humidity: 92%
+- Wind Speed: 0 m/s
+2025-01-10 20:53:58,008 - INFO - Fetched weather data for london: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.54°C
+- Humidity: 92%
+- Wind Speed: 0.45 m/s
+2025-01-10 21:35:01,910 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 21:35:01,910 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 21:35:55,326 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-10 21:37:27,523 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 21:37:46,832 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-10 21:37:46,993 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-10 21:38:02,327 - INFO - Attempting to open URL: https://www.google.com
+2025-01-10 21:38:02,795 - INFO - URL opened successfully: https://www.google.com
+2025-01-10 21:38:18,439 - INFO - System usage: {'cpu': 5.6, 'memory': 42.4, 'disk': 91.5}
+2025-01-10 21:46:55,601 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 21:46:55,602 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 21:47:54,988 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-10 21:48:05,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 21:48:16,388 - INFO - Searching for files larger than 100MB in C:\Users\tyler
+2025-01-10 21:49:43,379 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 21:49:43,380 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 21:50:10,851 - INFO - Searching for files larger than 100MB in C:\Users\tyler
+2025-01-10 21:57:21,695 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 21:57:21,696 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 21:57:53,869 - INFO - Searching for files larger than 100MB in C:\Users\tyler
+2025-01-10 22:10:52,373 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-10 22:10:52,374 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-10 22:12:30,929 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-10 22:12:31,155 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-10 22:12:51,464 - INFO - Searching for files larger than 100MB in C:\Users\tyler\Documents
+2025-01-10 22:12:51,467 - INFO - No large files found.
+2025-01-10 22:13:08,273 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-10 22:13:31,642 - INFO - System usage: {'cpu': 8.5, 'memory': 43.1, 'disk': 91.6}
+2025-01-10 22:13:46,485 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.54°C
+- Humidity: 92%
+- Wind Speed: 1.03 m/s
+2025-01-10 22:14:04,446 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-10 22:15:16,052 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-10 22:15:26,189 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: -1.54°C
+- Humidity: 92%
+- Wind Speed: 1.03 m/s
+2025-01-11 11:38:04,106 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 11:38:04,107 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 11:39:45,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-11 11:40:25,790 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-11 11:40:25,967 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-11 11:42:36,985 - INFO - Attempting to run program: C:\Riot Games\Riot Client\RiotClientServices.exe
+2025-01-11 11:42:37,018 - INFO - Program launched successfully: C:\Riot Games\Riot Client\RiotClientServices.exe
+2025-01-11 11:43:19,503 - INFO - Attempting to open URL: https://www.google.com
+2025-01-11 11:43:19,929 - INFO - URL opened successfully: https://www.google.com
+2025-01-11 11:43:59,673 - INFO - Searching for duplicate files in C:\Users\tyler
+2025-01-11 11:43:59,685 - ERROR - Error finding duplicate files: [Errno 13] Permission denied: 'C:\\Users\\tyler\\NTUSER.DAT'
+2025-01-11 11:44:28,792 - INFO - System usage: {'cpu': 5.3, 'memory': 37.6, 'disk': 91.6}
+2025-01-11 11:45:16,309 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-11 11:45:35,820 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: 2.15°C
+- Humidity: 86%
+- Wind Speed: 1.03 m/s
+2025-01-11 11:46:04,930 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-11 11:46:55,624 - ERROR - Error sending email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6f546c25d78sm11008587b3.9 - gsmtp')
+2025-01-11 11:58:26,333 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 11:58:26,334 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 11:59:17,648 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-11 11:59:38,644 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-11 11:59:38,803 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-11 12:00:19,933 - INFO - Attempting to run program: C:\Riot Games\Riot Client\RiotClientServices.exe
+2025-01-11 12:00:19,965 - INFO - Program launched successfully: C:\Riot Games\Riot Client\RiotClientServices.exe
+2025-01-11 12:00:52,106 - INFO - Attempting to open URL: https://www.google.com
+2025-01-11 12:00:52,591 - INFO - URL opened successfully: https://www.google.com
+2025-01-11 12:02:10,863 - INFO - Searching for files larger than 100MB in C:\Users\tyler
+2025-01-11 12:02:51,984 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:02:51,985 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 12:03:00,955 - INFO - System usage: {'cpu': 4.7, 'memory': 37.8, 'disk': 91.6}
+2025-01-11 12:03:15,575 - INFO - System usage: {'cpu': 13.2, 'memory': 38.1, 'disk': 91.6}
+2025-01-11 12:03:15,576 - WARNING - Disk usage is high: 91.6%
+2025-01-11 12:04:00,925 - INFO - Searching for files with extensions ['.txt', '.pdf'] in C:\Users\tyler
+2025-01-11 12:04:08,939 - INFO - Found 1691 matching files.
+2025-01-11 12:19:31,036 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:19:31,037 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 12:19:58,217 - INFO - Searching for files larger than 100MB in C:\Users\tyler\Documents
+2025-01-11 12:19:58,219 - INFO - No large files found.
+2025-01-11 12:47:42,311 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:47:42,312 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 12:48:13,991 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:48:13,992 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 12:50:17,948 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:50:17,949 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 12:57:16,734 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 12:57:16,735 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 13:05:03,001 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 13:05:03,002 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 13:17:28,551 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 13:17:28,552 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 13:17:55,050 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-11 13:18:10,420 - INFO - System usage: {'cpu': 3.3, 'memory': 38.3, 'disk': 91.7}
+2025-01-11 13:18:30,701 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Clear sky
+- Temperature: 0.55°C
+- Humidity: 92%
+- Wind Speed: 2.06 m/s
+2025-01-11 13:18:46,821 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-11 13:18:47,009 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-11 13:53:45,772 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 13:53:45,773 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 13:57:06,757 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 13:57:06,758 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 14:02:35,923 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 14:02:35,924 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 14:54:42,172 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 14:54:42,172 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:06:29,733 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:06:29,734 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:21:43,537 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:21:43,538 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:26:14,939 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:26:14,940 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:34:05,149 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:34:05,150 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:39:10,112 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:39:10,112 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:39:51,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-11 15:40:01,626 - INFO - Fetched weather data for London: Weather in London:
+- Condition: Broken clouds
+- Temperature: -0.17°C
+- Humidity: 93%
+- Wind Speed: 0 m/s
+2025-01-11 15:40:48,407 - INFO - Scheduling task 'scheduled_task' to run in 10 seconds.
+2025-01-11 15:42:33,091 - INFO - System usage: {'cpu': 3.3, 'memory': 43.3, 'disk': 91.8}
+2025-01-11 15:50:17,848 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:50:17,848 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 15:50:54,330 - INFO - Attempting to open file: C:\Users\tyler\Documents\test.txt
+2025-01-11 15:50:54,493 - INFO - File opened successfully: C:\Users\tyler\Documents\test.txt
+2025-01-11 15:51:27,212 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 15:51:27,213 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 16:13:17,169 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 16:13:17,170 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 16:17:00,704 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 16:17:00,705 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 16:28:40,810 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 16:28:40,811 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
