@@ -515,3 +515,5 @@
 2025-01-11 16:17:00,705 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
 2025-01-11 16:28:40,810 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
 2025-01-11 16:28:40,811 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-01-11 16:31:16,469 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\tyler\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-01-11 16:31:16,470 - INFO - Using writeable comtypes cache directory: 'C:\Users\tyler\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'

@@ -24,7 +24,7 @@ def check_for_updates():
     """
     try:
         # GitHub API endpoint for the latest release
-        repo_api_url = "https://api.github.com/repos/username/repo/releases/latest"  # Replace with your repo details
+        repo_api_url = "https://github.com/tlenoir07/BrotherEye"  # Replace with your repo details
         response = requests.get(repo_api_url)
         response.raise_for_status()
 
